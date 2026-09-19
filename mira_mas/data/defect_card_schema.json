@@ -1,0 +1,7 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DefectCard",
+  "type": "object",
+  "required": ["defect_id", "project", "commit", "func_before", "func_after", "reviewable"],
+  "properties": {"defect_id": {"type": "string"}, "project": {"type": "string"}, "commit": {"type": "string"}, "func_before": {"type": "string"}, "func_after": {"type": "string"}, "context": {"type": "string"}, "reviewable": {"type": "boolean"}}
+}

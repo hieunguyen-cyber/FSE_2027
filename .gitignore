@@ -203,6 +203,12 @@ cython_debug/
 # Temporary file for partial code execution
 tempCodeRunnerFile.py
 
+# Local reproduction inputs and generated runs (too large / machine-specific)
+MSR_data_cleaned.zip
+vendor/
+artifacts/
+.DS_Store
+
 # Ruff stuff:
 .ruff_cache/
 

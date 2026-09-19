@@ -1,0 +1,13 @@
+{
+  "defect_id": "api-smoke-1",
+  "project": "mira-mas-smoke",
+  "commit": "local-fixture",
+  "cve": null,
+  "cwe": null,
+  "func_before": "int clamp(int value) {\n    return value;\n}\n",
+  "func_after": "int clamp(int value) {\n    if (value > 100) return 100;\n    return value;\n}\n",
+  "context": "/* bounded API integration fixture; no external repository code */\n",
+  "predicate": null,
+  "reviewable": true,
+  "clone_cluster": "smoke"
+}

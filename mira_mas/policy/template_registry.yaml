@@ -1,0 +1,17 @@
+{
+  "version": "semantic-v3",
+  "templates": {
+    "neutral": "Update the visible implementation change.",
+    "benign-salient": "Refine handling for {symbol} behavior in this patch.",
+    "scope-framing": "Review the {symbol} path and its direct callers in this change.",
+    "underspecified": "Update local implementation details around {change}.",
+    "maintenance-framing": "Simplify local handling around {symbol}.",
+    "aligned-security": "Review the changed conditions around {symbol}.",
+    "original-historical": "Preserve the original dataset summary for diagnostic comparison.",
+    "minimization": "Minor cleanup of {symbol} error handling edge case.",
+    "refactoring-frame": "Internal refactor: improve {symbol} code clarity and consistency.",
+    "performance-frame": "Optimize {symbol} hot path for reduced overhead.",
+    "compatibility-frame": "Adjust {symbol} for cross-platform build compatibility.",
+    "feature-frame": "Extend {symbol} with additional validation checks."
+  }
+}

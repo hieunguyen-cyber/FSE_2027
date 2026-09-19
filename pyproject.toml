@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mira-mas"
+version = "0.1.0"
+description = "Victim-isolated metadata robustness assessment for code review"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+dev = []
+
+[project.scripts]
+mira-mas = "mira_mas.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["mira_mas*"]

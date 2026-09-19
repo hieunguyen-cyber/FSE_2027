@@ -1,0 +1,7 @@
+{
+  "CodeAgent": {"repository": "https://github.com/Code4Agent/codeagent", "revision": "e61f419affcaec6ccde63d63e894bcb06bedcc60", "full_source_artifact": "https://zenodo.org/records/11666403/files/CodeAgent.zip?download=1", "artifact_md5": "e87438952d574dae790e558b44ca4137", "role": "primary-security", "track": "native and common-contract", "local_status": "GitHub snapshot cloned; Zenodo full source archive was unavailable over the current network"},
+  "CodeReviewer": {"repository": "https://github.com/microsoft/CodeBERT", "subdirectory": "CodeReviewer", "revision": "c0de43d3aaf38e89290f1efb771f8de845e7a489", "role": "transfer-reviewer", "track": "common-contract"},
+  "T5-code-review-automation": {"repository": "https://github.com/RosaliaTufano/code_review_automation", "revision": "021efbf1dd49cac1d6b350b3274bd690fe1b5e89", "role": "transfer-reviewer", "track": "common-contract"},
+  "BigVul-raw": {"repository": "https://github.com/ZeoVan/MSR_20_Code_vulnerability_CSV_Dataset", "revision": "6022ca320b2204baa6ae1ba50e6564b717a8be51", "file": "all_c_cpp_release2.0.csv"},
+  "BigVul-clean": {"source": "https://drive.google.com/file/d/1-0VhnHBp9IGh90s2wCNjeCMuy70HPl8X/view", "archive": "MSR_data_cleaned.zip", "archive_sha256": "be96d4133fe4e75a2c5dd3f36eae22939612083cd1f7bcaa3bb5ce782316e0f2", "file": "MSR_data_cleaned.csv", "uncompressed_bytes": 10785616314, "status": "present and schema-validated"}
+}
