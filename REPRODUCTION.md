@@ -1,5 +1,8 @@
 # Reproduction map
 
+For manual download instructions and checksums for files excluded from Git, see
+[`DATASETS.md`](DATASETS.md).
+
 The directories below are unmodified, shallow snapshots of the upstream implementations and data source. Their exact checked-out revision is recorded in [`mira_mas/victims/provenance.json`](mira_mas/victims/provenance.json).
 
 | Protocol role | Local snapshot | Interface in this package |
